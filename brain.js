@@ -6,6 +6,12 @@ let aboutIn=input.indexOf(6);
 if (input == "github" || input == "Github") {
     window.open("https://www.github.com/muhammedraiyaan2")
 }
+else if (input == "github res" || input == "Github res") {
+    window.open("https://github.com/muhammedraiyaan2?tab=repositories")
+}
+else if (input == "help bot" || input == "Help bot") {
+    window.open("https://github.com/muhammedraiyaan2/Help-Bot")
+}
 else if (input == "server" || input == "Server") {
     window.open("https://github.com/muhammedraiyaan2/Server")
 }
