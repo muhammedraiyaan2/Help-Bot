@@ -1,0 +1,23 @@
+.text-center{
+    margin: auto;
+}
+.form{
+    display: inline-block;
+}
+#input{
+    margin-top: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.input{
+    margin-top: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+}
