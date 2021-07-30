@@ -4,6 +4,11 @@
 .form{
     display: inline-block;
 }
+body{
+    background-image: url('icon.jpg');
+    background-size: 100% 850%;
+    /* background-position: fixed; */
+}
 #input{
     margin-top: 10px;
     border: 2px solid red;
