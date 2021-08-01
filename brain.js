@@ -193,6 +193,10 @@ else if (input == "node js" || input == "Node js") {
 else if (input == "c#" || input == "C#") {
     window.open("https://www.google.com/search?q=C+sharp&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 }
+else if (input == "wikipedia" || input == "Wikipedia") {
+    let prom=prompt("Enter the word to search in wikipedia")
+    window.open("https://en.wikipedia.org/wiki/"+prom)    
+}
 // else if (input == "about" && aboutIn== || input == "C#") {
 //     window.open("https://www.google.com/search?q=about"+aboutIn+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 // }
