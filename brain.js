@@ -2,7 +2,7 @@ let input = prompt("Enter anything")
 // let input=document.getElementById('input')
 // let submit=document.getElementById('submit')
 //variables
-let aboutIn=input.indexOf(6);
+let aboutIn = input.indexOf(6);
 if (input == "github" || input == "Github") {
     window.open("https://www.github.com/muhammedraiyaan2")
 }
@@ -68,6 +68,18 @@ else if (input == "js sheet" || input == "Js sheet") {
 }
 else if (input == "python sheet" || input == "python sheet") {
     window.open("https://www.codewithharry.com/blogpost/python-cheatsheet")
+}
+else if (input == "flask sheet" || input == "Flask sheet") {
+    window.open("https://www.codewithharry.com/blogpost/flask-cheatsheet")
+}
+else if (input == "django sheet" || input == "Django sheet") {
+    window.open("https://www.codewithharry.com/blogpost/django-cheatsheet")
+}
+else if (input == "mysql sheet" || input == "Mysql sheet") {
+    window.open("https://www.codewithharry.com/blogpost/mysql-cheatsheet")
+}
+else if (input == "php sheet" || input == "Php sheet") {
+    window.open("https://www.codewithharry.com/blogpost/php-cheatsheet")
 }
 else if (input == "r bot" || input == "R bot") {
     window.open("http://r-bot.muhammadraiyaan.repl.co/")
@@ -181,8 +193,8 @@ else if (input == "flask" || input == "Flask") {
     window.open("https://www.google.com/search?q=Flask&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 }
 else if (input == "search" || input == "Search") {
-    let a=prompt("Enter the word")
-    window.open("https://www.google.com/search?q="+a+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
+    let a = prompt("Enter the word")
+    window.open("https://www.google.com/search?q=" + a + "&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 }
 else if (input == "spring boot" || input == "Spring boot") {
     window.open("https://www.google.com/search?q=Spring+boot&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
@@ -194,17 +206,35 @@ else if (input == "c#" || input == "C#") {
     window.open("https://www.google.com/search?q=C+sharp&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 }
 else if (input == "wikipedia" || input == "Wikipedia") {
-    let prom=prompt("Enter the word to search in wikipedia")
-    window.open("https://en.wikipedia.org/wiki/"+prom)    
+    let prom = prompt("Enter the word to search in wikipedia")
+    window.open("https://en.wikipedia.org/wiki/" + prom)
+}
+else if (input == "open" || input == "Open") {
+    let prom2 = prompt("Enter the link to open")
+    window.open("https://" + prom2)
+}
+else if (input == "exit" || input == "Exit") {
+    if (1 == 3) {
+        alert("yes")
+    }
+}
+else if (input == "readme" || input == "Readme") {
+    window.open("https://www.readme.so")
+}
+else if (input == "compressor" || input == "Compressor") {
+    window.open("https://compressjpeg.com/")
+}
+else if (input == "dawood" || input == "Dawood") {
+    window.open("https://www.youtube.com/results?search_query=dawoodsavage")
 }
 // else if (input == "about" && aboutIn== || input == "C#") {
 //     window.open("https://www.google.com/search?q=about"+aboutIn+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 // }
 else {
     alert("Don't get Muhammad Raiyaan sir")
-    let con=confirm("Muhammad Raiyaan sir do you want any search results about "+input)
-    if(con==true){
-    window.open("https://www.google.com/search?q="+input+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
+    let con = confirm("Muhammad Raiyaan sir do you want any search results about " + input)
+    if (con == true) {
+        window.open("https://www.google.com/search?q=" + input + "&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
     }
 }
     // else if (input != "github" && input != "github" && input == "whatsapp" && input == "Whatsapp" && input == "server" && input == "Server" && input == "backup" && input == "Backup" && input == "code with harry" && input == "Code with harry" && input == "codewithharry" && input == "Codewithharry" && input == "ebeam" && input == "Ebeam" && input == "codekey" && input == "Codekey" && input == "whatsapp" && input == "Whatsapp" && input == "lido" && input == "Lido" && input == "d" && input == "D" && input == "java sheet" && input == "Java sheet" && input == "c sheet" && input == "C sheet" && input == "c++ sheet" && input == "C++ sheet") {
