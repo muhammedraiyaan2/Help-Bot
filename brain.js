@@ -227,6 +227,54 @@ else if (input == "compressor" || input == "Compressor") {
 else if (input == "dawood" || input == "Dawood") {
     window.open("https://www.youtube.com/results?search_query=dawoodsavage")
 }
+else if (input == "google fonts" || input == "Google fonts") {
+    window.open("https://fonts.google.com")
+}
+else if (input == "google meet" || input == "Google meet") {
+    window.open("https://meet.google.com")
+}
+else if (input == "google chat" || input == "Google chat") {
+    window.open("https://chat.google.com")
+}
+else if (input == "google keep" || input == "Google keep") {
+    window.open("https://keep.google.com")
+}
+else if (input == "google word" || input == "Google word") {
+    window.open("https://docs.google.com")
+}
+else if (input == "google excel" || input == "Google excel") {
+    window.open("https://docs.google.com/spreadsheets/u/0/")
+}
+else if (input == "google excel" || input == "Google excel") {
+    window.open("https://docs.google.com/spreadsheets/u/0/")
+}
+else if (input == "google power point" || input == "Google power point") {
+    window.open("https://docs.google.com/presentation/u/0/")
+}
+else if (input == "google drive" || input == "Google drive") {
+    window.open("https://drive.google.com")
+}
+else if (input == "google photo" || input == "Google photo") {
+    window.open("https://photo.google.com")
+}
+else if (input == "google contact" || input == "Google contact") {
+    window.open("https://contacts.google.com/")
+}
+else if (input == "gmail" || input == "gmail") {
+    window.open("https://mail.google.com/")
+}
+else if (input == "google calendar" || input == "Google calendar") {
+    window.open("https://calendar.google.com/")
+}
+else if (input == "google translate" || input == "Google translate") {
+    window.open("https://translate.google.com/")
+}
+else if (input == "google hangouts" || input == "Google hangouts") {
+    window.open("https://hangouts.google.com/")
+}
+else if (input == "google duo" || input == "Google duo") {
+    window.open("https://duo.google.com/?usp=duo_ald")
+}
 // else if (input == "about" && aboutIn== || input == "C#") {
 //     window.open("https://www.google.com/search?q=about"+aboutIn+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 // }
