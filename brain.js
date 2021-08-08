@@ -278,13 +278,9 @@ else if (input == "google duo" || input == "Google duo") {
 // else if (input == "about" && aboutIn== || input == "C#") {
 //     window.open("https://www.google.com/search?q=about"+aboutIn+"&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
 // }
-else {
-    alert("Don't get Muhammad Raiyaan sir")
-    let con = confirm("Muhammad Raiyaan sir do you want any search results about " + input)
-    if (con == true) {
-        window.open("https://www.google.com/search?q=" + input + "&sxsrf=ALeKk00Mc8L8Ebno00sEmAehUQkiK0rGfg%3A1627311123480&ei=E8z-YLvFHOWT4-EPmfK14A0&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABQkwNYkwNgugRoAHADeACAAV6IAV6SAQExmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwj7mtCr_oDyAhXlyTgGHRl5DdwQ4dUDCA8&uact=5")
-    }
-}
+// else {
+//     alert("Don't get Muhammad Raiyaan sir")
+// }
     // else if (input != "github" && input != "github" && input == "whatsapp" && input == "Whatsapp" && input == "server" && input == "Server" && input == "backup" && input == "Backup" && input == "code with harry" && input == "Code with harry" && input == "codewithharry" && input == "Codewithharry" && input == "ebeam" && input == "Ebeam" && input == "codekey" && input == "Codekey" && input == "whatsapp" && input == "Whatsapp" && input == "lido" && input == "Lido" && input == "d" && input == "D" && input == "java sheet" && input == "Java sheet" && input == "c sheet" && input == "C sheet" && input == "c++ sheet" && input == "C++ sheet") {
     //     alert("Didn't get sir")
     // }
