@@ -49,7 +49,10 @@ else if (input == "e" || input == "E") {
     window.open("file://E:/")
 }
 else if (input == "java sheet" || input == "Java sheet") {
-    window.open("https://www.codewithharry.com/blogpost/java-cheatsheet")
+    window.open("https://muhammedraiyaan2.github.io/java-sheet/")
+}
+else if (input == "header link" || input == "Header link") {
+    window.open("https://muhammedraiyaan2.github.io/header-link/")
 }
 else if (input == "c sheet" || input == "C sheet") {
     window.open("https://www.codewithharry.com/blogpost/c-cheatsheet")
